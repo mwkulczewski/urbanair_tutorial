@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. $HOME/urbanair_env/bin/activate
+#. $HOME/urbanair_env/bin/activate
 
 # WORKS ONLY IN BASH - SHOULD BE CHANGED (EG. TO GLOBAL PATHS) IN CASE OF OTHER INTERPRETERS
 this_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"

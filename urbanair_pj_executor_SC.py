@@ -69,7 +69,7 @@ f_template = open(TEMPLATE, "w")
 f_template.write(template)
 f_template.close()
 
-APPLICATION="runurbanair.sh"
+APPLICATION="urbanairpj.sh"
 ENCODED_FILENAME = "urbanair_no2.json"
 
 WIND_TEMPLATE="wind.dat"

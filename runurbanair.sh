@@ -1,7 +1,5 @@
 #!/bin/bash
 
-export PATH=$PATH:/usr/lib64/openmpi/bin
+source $HOME/urbanair_tutorial/easypj_config.sh
 
-mpirun -np 4 /vecma/urbanair
-
-python3.6 $HOME/urbanair_tutorial/process_hdf5.py
+python3.6 urbanair_pj_executor_SC.py $1 $2
