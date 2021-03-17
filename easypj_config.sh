@@ -12,4 +12,4 @@ export PYTHONPATH
 export ENCODER_MODULES
 
 
-export EASYPJ_CONFIG=$HOME/urbainair/easypj_config.sh
+export EASYPJ_CONFIG=$HOME/urbanair_tutorial/easypj_config.sh
